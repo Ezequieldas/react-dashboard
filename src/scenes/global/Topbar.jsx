@@ -44,11 +44,7 @@ const Topbar = () => {
             <IconButton>
               <PersonOutlinedIcon/>
             </IconButton>
-
-
           </Box>
-
-    <IconButton></IconButton>
 
   </Box>)
 
