@@ -127,7 +127,6 @@ const checkoutSchema = yup.object().shape({
     .matches(phoneRegExp, "Phone number is not valid")
     .required("required"),
   address1: yup.string().required("required"),
-  address2: yup.string().required("required"),
 });
 const initialValues = {
   firstName: "",
@@ -135,7 +134,6 @@ const initialValues = {
   email: "",
   contact: "",
   address1: "",
-  address2: "",
 };
 
 export default Form;
